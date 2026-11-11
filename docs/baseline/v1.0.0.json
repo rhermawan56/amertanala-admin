@@ -1,0 +1,471 @@
+{
+  "baseline": "1.0.0",
+  "recorded_date": "2026-11-09",
+  "timezone": "Asia/Bangkok",
+  "source_ref": "uncommitted working tree; repository has no commits",
+  "scope": "Admin source/configuration/tests only; sibling landingpage inspected but not included",
+  "approval": "Documentation requested by owner; historical approval of every existing behavior not independently established",
+  "validation": "Static source inspection only; no application execution or visual verification",
+  "files": [
+    {
+      "path": ".env.example",
+      "sha256": "5729aad9be3eea7917f0c4275af93d500f81e4890bc251941189e0a726b26c01"
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "sha256": "27ff65779368f1cd918a9c32ffd71da0243e25345d4766e00298438edb1df869"
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "sha256": "ae467185d151710d3a10b72ebbd24970e8dafd55c06f7ec15f5254f8ad25c5df"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "80c54e405fa3aca89e4392786258314a24fe8e9199e9ca8614349b3891928037"
+    },
+    {
+      "path": "app/Actions/Fortify/CreateNewUser.php",
+      "sha256": "bb1994a087032710b41c34881baf2ee2237d6dffcea7485b7fa1d87c71666ec7"
+    },
+    {
+      "path": "app/Actions/Fortify/PasswordValidationRules.php",
+      "sha256": "a5fccdd4f6f2193017c80d0bb904c603c00669f22a4a00f7e386ed1eb55f542f"
+    },
+    {
+      "path": "app/Actions/Fortify/ResetUserPassword.php",
+      "sha256": "fb4e481c7bcececcf37a645c0f91b3e474774662384b3a08dc74233d7076b781"
+    },
+    {
+      "path": "app/Actions/Fortify/UpdateUserPassword.php",
+      "sha256": "b1d6c48a50db690f8759b5214fc1e93fbbfc260eab6dc895e7840f6996d0f096"
+    },
+    {
+      "path": "app/Actions/Fortify/UpdateUserProfileInformation.php",
+      "sha256": "5c713bf8a389099f8ece58b16fa7d39be95bf46b159519631e60a8d79e1ff6bc"
+    },
+    {
+      "path": "app/Console/Commands/ApplyChatDeletions.php",
+      "sha256": "5588775cc1d8aec05f9e29e529ab7081cdfe551be42ea04638952b9f80f4db47"
+    },
+    {
+      "path": "app/Console/Commands/BackupWorkspace.php",
+      "sha256": "bd4a20bdeaeb34a31c33ad9c7d69e4aeca0c7b5de4bc89c8b9799f4714cbd4d7"
+    },
+    {
+      "path": "app/Console/Commands/ChatMaintenance.php",
+      "sha256": "3e4c9a61d511ee8a9f28cae93a6dac5f117648b77fbb2b92a090827a59708bfe"
+    },
+    {
+      "path": "app/Console/Commands/CreateAdmin.php",
+      "sha256": "9d35bebe7fb2764c22fa73a3a0da07c75374d7e2426bfd31078a2fdb627d3e1f"
+    },
+    {
+      "path": "app/Console/Commands/ExportBackup.php",
+      "sha256": "708e4ba9ffa019b1a775b700c5d36e3914aa3ca73d05194bd042682078816622"
+    },
+    {
+      "path": "app/Events/ChatUpdated.php",
+      "sha256": "5adf1e560a5e2ad0d17fada7158bbd5e36245c49ee6e5c72e3418f8478a0a23e"
+    },
+    {
+      "path": "app/Http/Controllers/Auth/AuthenticatedSessionController.php",
+      "sha256": "59ba6117d0888138703ab5c1b458a1a1ccf8af3c612cf9923fe191de9ceab554"
+    },
+    {
+      "path": "app/Http/Controllers/Auth/ConfirmablePasswordController.php",
+      "sha256": "b402322cd7bc9f5303b1907a0e17913ccd7d82122982c6b2630a4951ec049f7f"
+    },
+    {
+      "path": "app/Http/Controllers/Auth/EmailVerificationNotificationController.php",
+      "sha256": "24d5704b7534ad365800a33e7c537bf63467f1271c4bc801b351c8a05a77e5b9"
+    },
+    {
+      "path": "app/Http/Controllers/Auth/EmailVerificationPromptController.php",
+      "sha256": "4ac70df56035a188c1839eb6139cca906a3d8dde3a7b71b3f0286c26b6e8a6a3"
+    },
+    {
+      "path": "app/Http/Controllers/Auth/NewPasswordController.php",
+      "sha256": "20ce3fcaf40f8f184318131f10769a9462d8da0cfd787d82c34ef7857c696630"
+    },
+    {
+      "path": "app/Http/Controllers/Auth/PasswordResetLinkController.php",
+      "sha256": "5e04b10ffdfcd73bc986039f0a13f4c485da6dcde70e67ea103d4821087b2811"
+    },
+    {
+      "path": "app/Http/Controllers/Auth/RegisteredUserController.php",
+      "sha256": "aa5e8308daf9375c95da64f1ba720f2fd19017517afd0edcedff86b8f8544f88"
+    },
+    {
+      "path": "app/Http/Controllers/Auth/VerifyEmailController.php",
+      "sha256": "2c44c576cd81a9a1aff84b8dc686e0cdd52466fc927cd0060c26935c54cebaaf"
+    },
+    {
+      "path": "app/Http/Controllers/ChatRecoveryController.php",
+      "sha256": "3056f47556c919cbe0e894a5663094083b3cd091011b8ddfa3a2302daa5b6ebf"
+    },
+    {
+      "path": "app/Http/Controllers/ContentController.php",
+      "sha256": "cb92e917147d6d336e1500df0502cf42184c0a36101408f00efed0e3349ab0a7"
+    },
+    {
+      "path": "app/Http/Controllers/Controller.php",
+      "sha256": "25d1c1ef8e6cc8a376553faacfba2b07d9dfaee9bdbb84f14f77517580e9deb1"
+    },
+    {
+      "path": "app/Http/Controllers/DashboardController.php",
+      "sha256": "87b7c021f66cc572529a6bd63ad8c0f4c3f82ceaf9b060fbf250b8fed62d7ca3"
+    },
+    {
+      "path": "app/Http/Controllers/GuestChatController.php",
+      "sha256": "00df899ef7fc4ac9a054e2d82b842a85d2b39b86c54e9d426260694196b1ffc1"
+    },
+    {
+      "path": "app/Http/Controllers/InboxController.php",
+      "sha256": "e1bc23d341dba6c0a781015e722cb31782b63a5aabf78ce12c55e2fd596eaaa7"
+    },
+    {
+      "path": "app/Http/Controllers/MediaController.php",
+      "sha256": "93bd31c9eedffed5da22e7fd5c6d0afaf8d4bd0e18e556787f5a6a89337247a5"
+    },
+    {
+      "path": "app/Http/Controllers/Settings/PasswordController.php",
+      "sha256": "42f3574af2df8bbce1fd88ad8f21b6eff2fc06ea180006f8174db5c3f4d285a1"
+    },
+    {
+      "path": "app/Http/Controllers/Settings/ProfileController.php",
+      "sha256": "de951fc4bc3514e474acd3b5447d12447294f98be5c44c79f3bfb201731040a7"
+    },
+    {
+      "path": "app/Http/Middleware/EnsureAdmin.php",
+      "sha256": "6ba39494f49b79f86d8dd209d1ca142aeaf5d5fd45f9953631763f23ba23f92d"
+    },
+    {
+      "path": "app/Http/Middleware/HandleInertiaRequests.php",
+      "sha256": "cdf0d9794c07fc4efcc6eed0db85e1d25ae63c9b41e84ce6215ca16c3520380e"
+    },
+    {
+      "path": "app/Http/Middleware/SecurityHeaders.php",
+      "sha256": "cd380263488de8b628c97c2c411d5c7f768536a190b428c19dc1802e1b996010"
+    },
+    {
+      "path": "app/Http/Middleware/WorkspaceCsrf.php",
+      "sha256": "98470c71230f7fdf361e23e9377444a2984f35e08f6667dac71d9e2cf5c468fe"
+    },
+    {
+      "path": "app/Http/Requests/Auth/LoginRequest.php",
+      "sha256": "d64740bf9748fcd0b33a14d72aa42ec2868f2579746b3e1701426006c7eaa6a3"
+    },
+    {
+      "path": "app/Http/Requests/SaveContentRequest.php",
+      "sha256": "c83c7a1659f9cb1b2d000ebaf73e7c2abaa488c82e490cac22ce35f72f4176f4"
+    },
+    {
+      "path": "app/Http/Requests/Settings/ProfileUpdateRequest.php",
+      "sha256": "f88cce7f4bd5d3bd3a5ca3cf60b6ece9ca8d63f55e6390db1942b5035bcb6fdb"
+    },
+    {
+      "path": "app/Models/ChatSession.php",
+      "sha256": "9339546e0440559b7bd065ccc9e39274907731ec987ec18695178e49dd487bb5"
+    },
+    {
+      "path": "app/Models/Conversation.php",
+      "sha256": "2e10f062110207055cea5848081a037f63002bbb651efac6cca42eec1be96197"
+    },
+    {
+      "path": "app/Models/Message.php",
+      "sha256": "5d62d1ca7b1eb884e17c6dd662fabf6a118f5acf2a84499778495c62d65de2f3"
+    },
+    {
+      "path": "app/Models/SiteContent.php",
+      "sha256": "7ee88a77e8a396f5c7e2a7ce340e7e1fcbc18dac5636c5f8f45cc612a229f7f9"
+    },
+    {
+      "path": "app/Models/User.php",
+      "sha256": "7fe93cc6873b5eb82ce5ba7d754f0c8069c4f483867700048022caaaf4cb761d"
+    },
+    {
+      "path": "app/Notifications/ChatAccessLink.php",
+      "sha256": "f59e3543a873cc2adcf5964f38b81a9b08902cf291607ec362d45241a0f78f38"
+    },
+    {
+      "path": "app/Notifications/UnreadChat.php",
+      "sha256": "947daac01e411832c915203dd69822ea53bf2612d12abeb32ce091a9da946eb6"
+    },
+    {
+      "path": "app/Providers/AppServiceProvider.php",
+      "sha256": "caf306ef6a25a547bbb7edd5508a39b51c365083eb6dd58378cf2242018e94c7"
+    },
+    {
+      "path": "app/Providers/FortifyServiceProvider.php",
+      "sha256": "78da1185fff2a5ada82909085a351f639d25f2354fc25608a1deaf51b114f93e"
+    },
+    {
+      "path": "app/Services/ChatAccess.php",
+      "sha256": "a88aa31a935feb31d80a5aa3e6a1b5fbdade51722e43c104c13dfcc512dee63b"
+    },
+    {
+      "path": "app/Services/ChatMessages.php",
+      "sha256": "9f9a2d14355a4dba9432d2c7f424b04a2eb4eb228175ecbce9bf325f89998fb9"
+    },
+    {
+      "path": "bootstrap/app.php",
+      "sha256": "550db4130b2ce8a46276f2bfbe3de67da64e3cb17e5b80ca7be435cf596d7a89"
+    },
+    {
+      "path": "bootstrap/providers.php",
+      "sha256": "62fccbe8249af9fb043b99880f6c41ac45ce4f307be830438cc7c8280178ee40"
+    },
+    {
+      "path": "components.json",
+      "sha256": "79ae97623d233e80207c9b81a91002afd355839545a5e33aa1d2b7cc2356aca9"
+    },
+    {
+      "path": "composer.json",
+      "sha256": "157dba899182ff82f57a960eddd7b3364d0554c42bc6e498662d720fb2291b74"
+    },
+    {
+      "path": "composer.lock",
+      "sha256": "6678487c14000873d4d2b155ab610058451762f5c10d3790e8f1e2fc4af741da"
+    },
+    {
+      "path": "config/app.php",
+      "sha256": "c8863128d674a2c067542d6d83b9f0a899a8ad1c5f84a60e5cc9ca5e37654935"
+    },
+    {
+      "path": "config/auth.php",
+      "sha256": "09c46d5c0e950f0a35ae95c21ff998cc5e4157a78cb3d8ec7b9925322f00869f"
+    },
+    {
+      "path": "config/broadcasting.php",
+      "sha256": "7fc5825a61ebb136840dd8177de317ec1ac0156a0f274559940c7a19d2b75430"
+    },
+    {
+      "path": "config/cache.php",
+      "sha256": "dc3a64749bc19946ba6a054be0b67ae8c450c9401799cb176ac0a0b8d4756664"
+    },
+    {
+      "path": "config/database.php",
+      "sha256": "4c831a869f4335805c6ca67c3f583e71329622ee8f70dbdc70c57a523a6b6021"
+    },
+    {
+      "path": "config/filesystems.php",
+      "sha256": "a53cdff0d57a386858162b0115f06be1c3f36776eac7107eae9ca66f68c57030"
+    },
+    {
+      "path": "config/fortify.php",
+      "sha256": "82686eeba7116322c11db9d1bb2a51de85453ff917c398165c936dca42feacf8"
+    },
+    {
+      "path": "config/logging.php",
+      "sha256": "6e0885a09b96f9e3e9ccfae9e536da3c33dbd53a7710a518c05ac0f2b6808fb8"
+    },
+    {
+      "path": "config/mail.php",
+      "sha256": "433acc0d5342a074b32e44b3d7ffba153c3eaf292a5a2fc94d7cb6ee0addb147"
+    },
+    {
+      "path": "config/queue.php",
+      "sha256": "a185a3e86b65db26938204f4f50cf0c0ca99974e9926b9cdcef6b7743feea482"
+    },
+    {
+      "path": "config/reverb.php",
+      "sha256": "704629f8d770b4ecec75ba01475b1a3d90d14de58d97885486fa505a19075d38"
+    },
+    {
+      "path": "config/services.php",
+      "sha256": "2226be3fa0e560fc8cd628f3e8f50fcd78639a24375f5e931d0c656eaf1d4ce8"
+    },
+    {
+      "path": "config/session.php",
+      "sha256": "c7f637c49f3e61d5488a11653b06a6b5a8a73b335d1dadbd84666be5ec4f6de6"
+    },
+    {
+      "path": "config/workspace.php",
+      "sha256": "eeadd3bbe6dda882774c3cc2a128b946f3a435407e1f89affdacc41520ad42ec"
+    },
+    {
+      "path": "database/factories/UserFactory.php",
+      "sha256": "50bdc543f1b09d1a57260be55ad0e1a68aee4b34f63e1109dc94d9bcd3080526"
+    },
+    {
+      "path": "database/migrations/0001_01_01_000000_create_users_table.php",
+      "sha256": "10d79883bc08ce46510f9ad8b1830b4d06d586dc56ae2c8bac3b3e491f69a90f"
+    },
+    {
+      "path": "database/migrations/0001_01_01_000001_create_cache_table.php",
+      "sha256": "20f769d3c11748c1cc42c41cd3789b0b9b2cd0db44ee22d378addac3ff8aed4f"
+    },
+    {
+      "path": "database/migrations/0001_01_01_000002_create_jobs_table.php",
+      "sha256": "7c9c712adf4091c87bf2612f4d0dccdfa1df4501553e4ac068b83d7bd5462fa5"
+    },
+    {
+      "path": "database/migrations/2026_11_09_000001_create_admin_workspace.php",
+      "sha256": "56e67f630a60cc3d9893a626ccd7e415f667f5fbd62bff076fcd45eb46daedc8"
+    },
+    {
+      "path": "database/migrations/2026_11_09_030601_add_two_factor_columns_to_users_table.php",
+      "sha256": "f599186f5b168d4eafb9cdc19a28a3c0d68f2ddc29c77fc34faf54df52ebb0bc"
+    },
+    {
+      "path": "database/migrations/2026_11_09_030602_create_passkeys_table.php",
+      "sha256": "7f0fc4cabc5a8f28e53e21403171e8aff2ac910d4a4845b7c98f5a333fa272db"
+    },
+    {
+      "path": "database/migrations/2026_11_09_120000_add_chat_start_key.php",
+      "sha256": "8c04f36eee3f0002a6115e11381b46d40bca63dec95edc41e765025f9233f9e7"
+    },
+    {
+      "path": "database/seeders/DatabaseSeeder.php",
+      "sha256": "31be18e40eabae8f739cb5d0f5a0a802f530b3930f7f5f394ad3efdfd7ec9814"
+    },
+    {
+      "path": "dev.ps1",
+      "sha256": "7a6d18f0046f47ea48d1fec49799129859a22dadf11acde2959ca0ead17c201f"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "144e1aee72ed0126dcc4f6a43a7ca79b3995c25a88d4fa2ca23c4c6632ac3001"
+    },
+    {
+      "path": "package.json",
+      "sha256": "453faee360a882b8356865abae27dbc0eaa2bd2e1213eb9cae70a13aaa7d2fe9"
+    },
+    {
+      "path": "phpunit.xml",
+      "sha256": "bbc808f5e83ec45da2c9e2493b73282149bef023dd3ed91e762a49f18f951e0f"
+    },
+    {
+      "path": "resources/css/app.css",
+      "sha256": "da49639a44803085bd069a45a102687871522c3ced73edcbc9e2893efa926deb"
+    },
+    {
+      "path": "resources/js/app.ts",
+      "sha256": "aa2de60a6d56bfc90ee31b1b5393f34392863e5ad3b4a9a1e468c2e3707e776b"
+    },
+    {
+      "path": "resources/js/pages/workspace/Challenge.vue",
+      "sha256": "7efe279f5a448e1646eb3dfe9963aa10bb77cf30b8f5ff7f23f0f666251b734a"
+    },
+    {
+      "path": "resources/js/pages/workspace/ConfirmPassword.vue",
+      "sha256": "98846994aefa86543c45bd63af28cabea47dabfbf3c90bb2b7311d8039aeb94f"
+    },
+    {
+      "path": "resources/js/pages/workspace/Content.vue",
+      "sha256": "e1e6e0806183e33dce71ea8cf45df2c5ed5f37dfe8f81de7da6db9b8f0175f36"
+    },
+    {
+      "path": "resources/js/pages/workspace/Dashboard.vue",
+      "sha256": "f92100728e8b9d569ecdaa8ff7a1df4cb80daebc9f5a8d89a1efc84cdb227321"
+    },
+    {
+      "path": "resources/js/pages/workspace/ForgotPassword.vue",
+      "sha256": "8561ec060c54c069a66d5771c76c9766b2fad1592c8dde5f6fc08ecd0cbfb61e"
+    },
+    {
+      "path": "resources/js/pages/workspace/GuestChat.vue",
+      "sha256": "48eb39278b451ed81f07599965bbd628177736ee57946189e1f1158117deeeec"
+    },
+    {
+      "path": "resources/js/pages/workspace/Inbox.vue",
+      "sha256": "06afc29a6fc477939e2dd6b24126bfc6173efe12f1c95ca640b9794e8a821bcf"
+    },
+    {
+      "path": "resources/js/pages/workspace/Login.vue",
+      "sha256": "1091918b44ad765634a32ec98e47c6468bd68db86bc2a377f87c6bb897868e8c"
+    },
+    {
+      "path": "resources/js/pages/workspace/Media.vue",
+      "sha256": "e592bf67fa20ba155ce988ca02cdd3f0b6a5cdd67305749cbd63a5867250037c"
+    },
+    {
+      "path": "resources/js/pages/workspace/Recover.vue",
+      "sha256": "c7cf936ad832631474e49b630aa4ee8db5fa828be5bf0e0f2d04a1e7dca968d2"
+    },
+    {
+      "path": "resources/js/pages/workspace/ResetPassword.vue",
+      "sha256": "3b5f0fe5074a37d7594791ed6cb4351332fe411bef8a5f8018fa0ad7324fa27c"
+    },
+    {
+      "path": "resources/js/pages/workspace/Security.vue",
+      "sha256": "88f53748416245e1d7183fbb2187da8ad6d0835a05026ad765128c0e2ac44eca"
+    },
+    {
+      "path": "resources/js/workspace/api.ts",
+      "sha256": "35309fa3e760562982d76b81e4d22169b5ca95f2b973089f8cc78ee48f6ff2d9"
+    },
+    {
+      "path": "resources/js/workspace/realtime.ts",
+      "sha256": "49ddbf1315617a8268f93d92839677f04ceae026a585706f1270801c5bd05dce"
+    },
+    {
+      "path": "resources/js/workspace/types.ts",
+      "sha256": "865afcdc14f56acb2e137d4fd6ba50ec4f51a35a16bb6fb280cb5637d74182b5"
+    },
+    {
+      "path": "resources/js/workspace/useDelivery.ts",
+      "sha256": "424a6806c14843ffbbd6e988c0cbe0496e5bba8e9abcf895bce619b93ac79dbe"
+    },
+    {
+      "path": "resources/js/workspace/WorkspaceLayout.vue",
+      "sha256": "975dee1a9aae711249d1eaefab8caa9bff9fc753ed4940923c7c09f6169a846e"
+    },
+    {
+      "path": "resources/views/app.blade.php",
+      "sha256": "c9bb989a038144c4b1e70518216df2dd7028c1a75e1edb8916cb48af5fd048cc"
+    },
+    {
+      "path": "routes/auth.php",
+      "sha256": "a8e2985a9d33448e71d918cfbc79340e51f489133401130a87b75eb3f40e9192"
+    },
+    {
+      "path": "routes/channels.php",
+      "sha256": "9c8b5f55d0b2cf7099ecfab9a35b3ca4c0dab05a9bbda3bd98013c2d1c3a1f6f"
+    },
+    {
+      "path": "routes/console.php",
+      "sha256": "4f61af92133ee8122a012f8fbe8edd93aa05eeae845b4968aff885e7e801eb2f"
+    },
+    {
+      "path": "routes/settings.php",
+      "sha256": "82b383d6301a6d72f5f95e84ac7f655d47df76ee509cc54f5befc3d96f80fcf1"
+    },
+    {
+      "path": "routes/web.php",
+      "sha256": "507d387a4f8ee94718d22c4cf176d242254a7341a1d4caef608c06da4cd885aa"
+    },
+    {
+      "path": "tailwind.config.js",
+      "sha256": "f2461e0ec192dff192823860faa284020a2e31e51f21a53fe40ce60abd545c6c"
+    },
+    {
+      "path": "tests/Feature/ChatTest.php",
+      "sha256": "e8125f51904b900a5cadf42fd3d1629aa5427b2109b2ed236a667361afd5048b"
+    },
+    {
+      "path": "tests/Feature/WorkspaceTest.php",
+      "sha256": "4efe285d02aed66825fb6805d9eda5a7c8f0039f918121140b890b775f48645c"
+    },
+    {
+      "path": "tests/Pest.php",
+      "sha256": "4219a474d11fe6dfeea61d27ec76eb3c65736f395ec28e6510ff0df472a70a6f"
+    },
+    {
+      "path": "tests/TestCase.php",
+      "sha256": "c7c209f5579c42647c1f7b2a79ac828e8b54ac62a98442045a6e94fa2c0d0ebc"
+    },
+    {
+      "path": "tests/Unit/ExampleTest.php",
+      "sha256": "af350f1a9a9cbc60a8494ec1e6cacee0811ee5bbac24ea6b7a98fabd30beb906"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "9a4a0786e61c840c2df65ae3843d6f9c49f9e6a5d9d81a8d33beb894d33259ce"
+    },
+    {
+      "path": "vite.config.ts",
+      "sha256": "f33c7e495c3b3798424f7e5c5325b0094f598e8c5d9bf1ee00092e16971f635a"
+    }
+  ]
+}
